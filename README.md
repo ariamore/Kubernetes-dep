@@ -3,7 +3,7 @@
 For following this repository, you need to install:
 
 - minikube ([official guide](https://kubernetes.io/docs/tasks/tools/install-minikube/)):
-  <br \>`$ minikube start --vm-driver hyperv --hyperv-virtual-switch "virtual-switch-name"`  (using Hyper-V)
+  <br>`$ minikube start --vm-driver hyperv --hyperv-virtual-switch "virtual-switch-name"`  (using Hyper-V)
   <br \>`$ minikube start`  (using VirtualBox)
 
 - helm ([official guide](https://helm.sh/)):
@@ -66,3 +66,5 @@ For seeing your replicas, run -->
 
 	NAME        DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
 	test-mean   5         5         5            5           2h
+
+For ending the process, press <Ctrl + c> on PowerShell (where you send queries). After few minutes, CPU utilization dropped to 0, and so HPA autoscaled the number of replicas back down to 1.
