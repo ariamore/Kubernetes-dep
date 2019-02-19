@@ -54,7 +54,8 @@ Now, if you want to test what happen when load increased, send an infinite loop 
 
 	Hit enter for command prompt -> $ while true; do wget -q -O- http://[your-local-environment]; done
 
-After this, you CPU usage level should be higher (then the fixed limit); so your application should scaling up (running again $ kubectl get hpa ) -->
+After this, you CPU usage level should be higher (then the fixed limit);
+so your application should scaling up (running again $ kubectl get hpa ) -->
 
 	NAME         REFERENCE                     TARGET       MINPODS   MAXPODS   REPLICAS   AGE
 	test-mean    Deployment/test-mean/scale    75% / 25%    1         10        1          5m
