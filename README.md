@@ -26,7 +26,7 @@ Now, running PowerShell like admin, and paste the following commands:
   `$ git clone https://github.com/ariamore/Kubernetes-dep.git`
   <br> for cloning this repo locally, then change directory to -->  `$ cd .\Kubernetes-dep\`
 
-You need to link your scripting to the helm repo ([available here](https://github.com/bitnami/charts)).
+You need to link your scripting to the helm repo ([available here](https://github.com/bitnami/charts)).<br>
 Then, you need to paste this instruction -->
   `$ helm repo update`
 
