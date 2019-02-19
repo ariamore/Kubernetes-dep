@@ -1,4 +1,5 @@
-# Kubernetes-dep
+# Autoscaling an application on Kubernetes 
+## Kubernetes-dep
 
 For following this repository, you need to install:
 
